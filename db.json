@@ -1,0 +1,344 @@
+{
+  "tables": [
+    {
+      "id": "L1",
+      "capacity": 4,
+      "row": "row1",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L2",
+      "capacity": 4,
+      "row": "row1",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "LS1",
+      "capacity": 2,
+      "row": "row1",
+      "location": "lower",
+      "type": "small",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L3",
+      "capacity": 4,
+      "row": "row1",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L4",
+      "capacity": 4,
+      "row": "row1",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "LS2",
+      "capacity": 2,
+      "row": "row1",
+      "location": "lower",
+      "type": "small",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L5",
+      "capacity": 4,
+      "row": "row1",
+      "location": "lower",
+      "type": "big",
+      "status": "booked",
+      "bookingId": "mfke267l"
+    },
+    {
+      "id": "L6",
+      "capacity": 4,
+      "row": "row1",
+      "location": "lower",
+      "type": "big",
+      "status": "booked",
+      "bookingId": "mfkg0e2q"
+    },
+    {
+      "id": "LS3",
+      "capacity": 2,
+      "row": "row1",
+      "location": "lower",
+      "type": "small",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L7",
+      "capacity": 4,
+      "row": "row1",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L8",
+      "capacity": 4,
+      "row": "row1",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "LS4",
+      "capacity": 2,
+      "row": "row1",
+      "location": "lower",
+      "type": "small",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L9",
+      "capacity": 4,
+      "row": "row1",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L10",
+      "capacity": 4,
+      "row": "row2",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L11",
+      "capacity": 4,
+      "row": "row2",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "LS5",
+      "capacity": 2,
+      "row": "row2",
+      "location": "lower",
+      "type": "small",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L12",
+      "capacity": 4,
+      "row": "row2",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L13",
+      "capacity": 4,
+      "row": "row2",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "LS6",
+      "capacity": 2,
+      "row": "row2",
+      "location": "lower",
+      "type": "small",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L14",
+      "capacity": 4,
+      "row": "row2",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L15",
+      "capacity": 4,
+      "row": "row2",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "LS7",
+      "capacity": 2,
+      "row": "row2",
+      "location": "lower",
+      "type": "small",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L16",
+      "capacity": 4,
+      "row": "row2",
+      "location": "lower",
+      "type": "big",
+      "status": "booked",
+      "bookingId": "mfkg0e2q"
+    },
+    {
+      "id": "L17",
+      "capacity": 4,
+      "row": "row2",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "LS8",
+      "capacity": 2,
+      "row": "row2",
+      "location": "lower",
+      "type": "small",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "L18",
+      "capacity": 4,
+      "row": "row2",
+      "location": "lower",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "U1",
+      "capacity": 4,
+      "location": "upper",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "U2",
+      "capacity": 4,
+      "location": "upper",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "U3",
+      "capacity": 4,
+      "location": "upper",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "U4",
+      "capacity": 4,
+      "location": "upper",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "U5",
+      "capacity": 4,
+      "location": "upper",
+      "type": "big",
+      "status": "booked",
+      "bookingId": "mfkczffm"
+    },
+    {
+      "id": "U6",
+      "capacity": 4,
+      "location": "upper",
+      "type": "big",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "US1",
+      "capacity": 2,
+      "location": "upper",
+      "type": "small",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "US2",
+      "capacity": 2,
+      "location": "upper",
+      "type": "small",
+      "status": "free",
+      "bookingId": null
+    },
+    {
+      "id": "US3",
+      "capacity": 2,
+      "location": "upper",
+      "type": "small",
+      "status": "free",
+      "bookingId": null
+    }
+  ],
+  "bookings": [
+    {
+      "id": "mfkczffm",
+      "tables": [
+        "U5"
+      ],
+      "people": null,
+      "name": "123",
+      "time": ""
+    },
+    {
+      "id": "mfke267l",
+      "date": "2025-09-15",
+      "tables": [
+        "L5"
+      ],
+      "people": 3,
+      "name": "Ante",
+      "startTime": "13:30",
+      "endTime": "14:30"
+    },
+    {
+      "id": "mfkg0e2q",
+      "date": "2025-09-15",
+      "tables": [
+        "L6",
+        "L16"
+      ],
+      "people": 6,
+      "name": "Viktor",
+      "startTime": "13:45",
+      "endTime": "14:05"
+    }
+  ]
+}

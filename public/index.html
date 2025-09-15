@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Table Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top bar with live date & time + actions -->
+  <header class="topbar">
+    <div class="now">
+      <span id="todayText">—</span>
+      <span id="timeText">—</span>
+    </div>
+    <div class="actions">
+      <button id="reservationsBtn" class="btn secondary">📋 Reservations</button>
+      <button id="startBookingBtn" class="btn primary">＋ New booking</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="terrace-wrap">
+      <h2>Lower Terrace</h2>
+
+      <!-- Two fixed rows matching your image -->
+      <div id="lower-row1" class="row-grid"></div>
+      <div id="lower-row2" class="row-grid"></div>
+    </section>
+
+    <!-- Booking selection controls -->
+    <div id="bookingControls" class="booking-controls hidden">
+      <button id="confirmSelectionBtn" class="btn green">Confirm Selection</button>
+      <button id="cancelSelectionBtn" class="btn danger">Cancel</button>
+    </div>
+
+    <!-- Booking panel at bottom -->
+    <section id="bookingPanel" class="booking-panel hidden">
+      <h3>New Booking</h3>
+      <form id="bookingForm">
+        <div class="form-row">
+          <label>Selected Tables:</label>
+          <span id="selectedTablesDisplay"></span>
+        </div>
+        <div class="form-row">
+          <label>People</label>
+          <select id="bookingPeople"></select>
+        </div>
+        <div class="form-row">
+          <label>Name</label>
+          <input id="bookingName" required />
+        </div>
+        <div class="form-row">
+          <label>Start Time</label>
+          <input type="time" id="bookingStart" required />
+        </div>
+        <div class="form-row">
+          <label>End Time</label>
+          <input type="time" id="bookingEnd" required />
+        </div>
+        <div class="panel-actions">
+          <button type="submit" class="btn green">Save</button>
+          <button type="button" id="formCancelBtn" class="btn danger">Cancel</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Popup for booked table details -->
+  <div id="tablePopup" class="popup hidden">
+    <div class="popup-content">
+      <h4 id="popupTitle">Reservation</h4>
+      <div class="popup-line"><strong>Name:</strong> <span id="popupName"></span></div>
+      <div class="popup-line"><strong>People:</strong> <span id="popupPeople"></span></div>
+      <div class="popup-line"><strong>Time:</strong> <span id="popupTime"></span></div>
+      <div class="popup-actions">
+        <button id="popupCancelBooking" class="btn danger">Cancel reservation</button>
+        <button id="popupClose" class="btn secondary">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom sheet for today's reservations -->
+  <section id="reservationsSheet" class="sheet hidden">
+    <div class="sheet-header">
+      <h3>Today’s Reservations</h3>
+      <button id="closeSheetBtn" class="btn secondary">Close</button>
+    </div>
+    <div id="reservationsList" class="sheet-body">
+      <!-- filled by JS -->
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
