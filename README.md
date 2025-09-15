@@ -60,10 +60,15 @@ In your browser, go to http://localhost:3000.
 	•	Persistence: Data stored in db.json (auto-created on first run)
 
 🔮 Roadmap
-	•	Add upper terrace support
-	•	Enable multi-day reservations
-	•	Authentication for staff/admin access
-	•	Export reservations list
+	•	Add the upper terrace — as a tab, easier to organize
+	•	Improve UI — the table layout must always remain the same
+	•	Add a separate page that prints all reservations in list form
+	•	Set table capacity (max 2 for smaller tables that can't be combined)
+	•	Check how to change table names
+
+Optional (Low prio)
+	•	Add a small window showing the next available tables
+
 
 📝 License
 
